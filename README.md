@@ -26,4 +26,4 @@ This project was created to strengthen front-end development skills by implement
 
 ## Author
 
-Aman Kumar
+Aman Sharma
