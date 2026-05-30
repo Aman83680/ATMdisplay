@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ATM Simulator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="login-box" id="loginBox">
+        <h2>ATM Login</h2>
+
+        <input type="password" id="pin" placeholder="Enter PIN">
+
+        <button onclick="login()">Login</button>
+    </div>
+
+    <div class="dashboard hidden" id="dashboard">
+
+        <h2>ATM Dashboard</h2>
+
+        <div class="balance-card">
+            Balance: ₹<span id="balance">10000</span>
+        </div>
+
+        <div class="actions">
+
+            <input type="number" id="amount" placeholder="Enter Amount">
+
+            <button onclick="deposit()">Deposit</button>
+
+            <button onclick="withdraw()">Withdraw</button>
+
+        </div>
+
+        <h3>Transaction History</h3>
+
+        <ul id="history"></ul>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

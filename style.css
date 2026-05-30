@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#0f172a;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    padding:20px;
+}
+
+.container{
+    width:100%;
+    max-width:450px;
+}
+
+.login-box,
+.dashboard{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.2);
+}
+
+h2{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+input{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:1px solid #ccc;
+    border-radius:8px;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    background:#2563eb;
+    color:white;
+    cursor:pointer;
+    margin-top:10px;
+}
+
+button:hover{
+    background:#1d4ed8;
+}
+
+.balance-card{
+    background:#22c55e;
+    color:white;
+    text-align:center;
+    padding:15px;
+    border-radius:10px;
+    font-size:22px;
+    margin-bottom:20px;
+}
+
+ul{
+    list-style:none;
+}
+
+li{
+    background:#f1f5f9;
+    padding:10px;
+    margin-top:8px;
+    border-radius:6px;
+}
+
+.hidden{
+    display:none;
+}
+
+@media(max-width:500px){
+    .dashboard,
+    .login-box{
+        padding:18px;
+    }
+}
